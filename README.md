@@ -1,3 +1,26 @@
+## The Offer
+
+For 299 €, I review your repository and deliver:
+
+- Top 5 practical findings
+- One focused pull request
+- Verification notes
+- Rollback notes
+- English or Spanish report
+
+No live-system testing. No pentesting. Repository-only improvement work.
+
+## Book A Review
+
+Email: shopobrita@gmail.com
+
+To start, send:
+- repository URL
+- selected package
+- confirmation that you own the repository or are authorized to share it
+- preferred report language: English, Spanish, or both
+- any deadline or priority area
+
 # Codebase Tune-Up Pricing
 
 Practical repository improvement packages with clear scope, fixed deliverables, and no live-system testing.
