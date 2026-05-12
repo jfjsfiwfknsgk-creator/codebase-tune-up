@@ -1,0 +1,137 @@
+# Codebase Tune-Up Intake Form
+
+Use this form to request a Codebase Tune-Up. Plain answers are fine. If a question does not apply, write `N/A`.
+
+## 1. Repository
+
+**Repository URL:**  
+`https://github.com/...`
+
+**Repository type:**  
+Choose one:
+
+- Public open-source repository
+- Private repository where I have owner permission
+- Client-owned repository where I am authorized to request this work
+
+## 2. Authorization
+
+**Do you confirm that you own this repository or have explicit permission from the owner to request this review?**  
+Yes / No
+
+**Your name:**  
+
+**Your relationship to the repository:**  
+Choose one:
+
+- Owner
+- Maintainer
+- Employee
+- Contractor with permission
+- Client representative
+
+**Date of authorization confirmation:**  
+`YYYY-MM-DD`
+
+## 3. Requested Goal
+
+What do you want improved or reviewed?
+
+Examples:
+
+- Improve test reliability
+- Find small maintainability issues
+- Review CI/CD setup
+- Improve documentation
+- Identify low-risk cleanup opportunities
+- Create one useful pull request
+
+**Your goal:**  
+
+## 4. Allowed Scope
+
+Choose what is allowed:
+
+- Static code review
+- Dependency review
+- Configuration review
+- Test quality review
+- CI/CD review
+- Documentation review
+- Small safe fixes
+- Minimal pull request
+- GitHub issue/PR summary
+- Client-facing report
+
+**Allowed scope:**  
+
+## 5. Disallowed Actions
+
+By default, this service does not include:
+
+- Live-system testing
+- Credential use
+- Exploitation
+- Automated vulnerability scanning
+- Bypassing protections
+- Testing third-party infrastructure
+- Anything outside the repository unless separately authorized
+
+**Any extra restrictions I should follow?**  
+
+## 6. Preferred Output
+
+**Preferred language:**  
+Choose one:
+
+- English
+- Spanish
+- Both
+
+**Preferred format:**  
+Choose one or more:
+
+- Markdown report
+- PDF report
+- GitHub issue
+- Pull request description
+
+**Should the package include a pull request?**  
+Yes / No
+
+## 7. Commercial Context
+
+**What type of project is this?**  
+Examples: SaaS app, agency client project, open-source library, internal tool, local business website.
+
+**Who uses it?**  
+Examples: paying customers, internal team, developers, public users.
+
+**Is this revenue-critical?**  
+Yes / No
+
+**Do you have a deadline?**  
+`YYYY-MM-DD` or `N/A`
+
+## 8. Risk Level
+
+Choose one:
+
+- Low: small improvements only
+- Medium: moderate changes are acceptable with tests
+- High: extra care required; review only unless changes are explicitly approved
+
+**Risk level:**  
+
+## 9. Notes
+
+Add anything else that would help:
+
+- Important files or areas
+- Known pain points
+- Preferred branch
+- Test command
+- Package manager
+- Documentation expectations
+
+**Notes:**  

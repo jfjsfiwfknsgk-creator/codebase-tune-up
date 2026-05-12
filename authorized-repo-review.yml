@@ -1,0 +1,177 @@
+## The Offer
+
+For 299 €, I review your repository and deliver:
+
+- Top 5 practical findings
+- One focused pull request
+- Verification notes
+- Rollback notes
+- English or Spanish report
+
+No live-system testing. No pentesting. Repository-only improvement work.
+
+## Book A Review
+
+Email: shopobrita@gmail.com
+
+To start, send:
+- repository URL
+- selected package
+- confirmation that you own the repository or are authorized to share it
+- preferred report language: English, Spanish, or both
+- any deadline or priority area
+
+Recommended starting package: **Tune-Up + PR, 299 euro**.
+
+You get a report, one focused pull request, verification notes, and rollback guidance within **3-5 business days** after access and scope are confirmed.
+
+## What You Get
+
+- Repository-only review based on concrete file evidence
+- Top 5 practical findings ranked by impact and effort
+- Plain-language report for technical and non-technical stakeholders
+- One recommended improvement path
+- One focused pull request on eligible packages
+- Verification steps for the change
+- Rollback notes for the pull request
+- Suggested next steps for future maintenance
+
+## Why Clients Buy This
+
+Most repositories do not need a dramatic rescue. They need steady, practical maintenance:
+
+- Tests that actually run where the README says they should
+- CI workflows that match the project setup
+- Documentation that helps the next developer onboard faster
+- Config files that are easier to understand
+- Error handling that is less fragile
+- Small duplication or maintainability issues removed before they spread
+
+Codebase Tune-Up turns that work into a compact, reviewable service.
+
+## Who It Is For
+
+- SaaS founders preparing for the next feature push
+- Agencies that need a polished maintenance deliverable for clients
+- Freelance developers who want a second reviewer
+- Open-source maintainers who welcome small, useful contributions
+- Local businesses with software projects they own or are authorized to share
+
+## What Gets Reviewed
+
+- Code quality and maintainability
+- Obvious correctness issues visible from repository files
+- Test coverage, test scripts, and test reliability
+- Dependency manifests and lockfiles
+- Configuration files
+- CI/CD workflows
+- Documentation and onboarding instructions
+- Small performance or reliability issues visible in code
+
+## What Is Not Included
+
+Codebase Tune-Up is **not penetration testing** and is **not a security audit**.
+
+It does not include:
+
+- Live-system testing
+- External infrastructure scanning
+- Credential use, except access tokens explicitly needed to access an authorized private repository
+- Exploitation
+- Bypassing protections
+- Automated vulnerability scanning
+- Testing third-party systems
+- Unsupported claims about production risk
+
+Every finding must be backed by repository evidence such as a file path, function, config file, dependency manifest, test, CI file, or documentation page.
+
+## Packages
+
+| Package | Price | Best For | Delivery |
+| --- | ---: | --- | --- |
+| Sample Review | 0 euro | Seeing the review style | 1-2 observations |
+| Mini Tune-Up | 99 euro | Deciding what to fix first | Top 5 findings |
+| Tune-Up + PR | 299 euro | Most teams | Report plus one PR |
+| Refactor Sprint | 750 euro | Several scoped improvements | Multiple focused PRs |
+| Monthly Care | 1000-1500 euro/month | Ongoing maintenance | Monthly review and PRs |
+
+Full details are in [pricing.md](pricing.md).
+
+## Sample Deliverable
+
+A typical Tune-Up + PR delivery includes:
+
+- `repository-review.md`: client-facing report with top findings
+- Pull request: one small improvement, such as a test fix, CI cleanup, docs update, config clarification, or maintainability improvement
+- Verification notes: commands run and results
+- Rollback notes: how to revert the change if needed
+- Suggested next steps: which remaining improvements to prioritize
+
+See [templates/sample-report-fictional.md](templates/sample-report-fictional.md) for a fictional premium sample report.
+
+## Client Onboarding Steps
+
+1. Complete [intake-form.md](intake-form.md).
+2. Confirm authorization and repository access.
+3. Choose a package and preferred report language.
+4. Confirm scope, timeline, and any priority areas.
+5. Provide repository access if the repo is private.
+6. Receive the report and PR, depending on package.
+7. Review, comment, merge, or request a small adjustment.
+
+## Authorization Policy
+
+Work starts only when one of the following is true:
+
+- The repository is public and the requested work is limited to public repository contents.
+- The requester owns the repository.
+- The requester is an authorized maintainer, employee, contractor, or client representative.
+- The repository owner has explicitly granted access for this review.
+
+For private repositories, authorization and scope must be confirmed before access is requested.
+
+## Satisfaction Policy
+
+If the delivered report or PR does not match the agreed repository scope, I will revise it once at no extra cost.
+
+For paid packages, refund requests are handled case by case. Refunds are not available after a completed report and PR have been delivered within the agreed scope, but I will correct clear misses, factual errors, or scope misunderstandings promptly.
+
+## FAQ
+
+### Is this a security audit?
+
+No. This is a repository improvement review. It can identify code, configuration, dependency, documentation, or CI/CD concerns visible in the repository, but it is not penetration testing or a complete security audit.
+
+### Do you test production systems?
+
+No. The review stays within authorized repository contents. No live-system testing, exploitation, bypassing, or external scanning is performed.
+
+### Can you review private repositories?
+
+Yes, if the repository owner or authorized representative explicitly grants access and confirms scope.
+
+### What kind of PR will you create?
+
+The PR is intentionally small. Typical examples include improving a test, fixing a brittle script, clarifying documentation, tightening a config, improving error handling, or removing a low-risk maintainability issue.
+
+### What if the repository has many issues?
+
+The report focuses on the top findings. Larger work can be handled through a Refactor Sprint or Monthly Care plan.
+
+### Will you touch unrelated files?
+
+No. PRs are kept focused and easy to review.
+
+### What if tests fail before your change?
+
+I will report the existing failure, avoid hiding it, and explain what could and could not be verified.
+
+### What languages and frameworks do you support?
+
+The service works best for common web, SaaS, library, and automation repositories. If a project uses an unusual stack, I will confirm whether it is a good fit before starting.
+
+## Call To Action
+
+Book a **Codebase Tune-Up + PR** to get a practical repository report plus one reviewable improvement within 3-5 business days.
+
+Start with [intake-form.md](intake-form.md), then send the completed form with your repository URL and preferred package.
